@@ -1,0 +1,38 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\city-swap.md": "8b8cb71d81be2e9600e85217cc1b007f490488dbd43eea535507645c880a3e74",
+    "references\\capabilities\\compliance-rewrite.md": "626fd029aa63327cb0748e8f26fb140efdf9a1d1db07db1bac8721c4237f5f3c",
+    "references\\capabilities\\deconstruct.md": "4bea908220c36ee55e7a130c1b447abb034e73946909b0d9e5fe7ab240fe75cf",
+    "references\\capabilities\\packaging-audio.md": "42f796ba983a22a056d5348fed25953118602b83190a71cea517bf8ae97208d3",
+    "references\\capabilities\\prompt-pack.md": "debd27fab60da57777b8ef7098d806634c55e1249f32239ceb97314737e13160",
+    "references\\capabilities\\story-structure.md": "18585c499d0f01c227cccb90565c378d1a29ea816caee7129944be7559b2fe1c",
+    "references\\capability-index.md": "cdeaf037f875694cad57b74288392ebe229fa78b3c8a5a6789c2c3d665573396",
+    "references\\cheatsheet.md": "b4abbb80ea57681a2e01f4c80a683b77c0f4e4dc7e80d2bc7402dafd877810aa",
+    "references\\glossary.md": "89998942f119e0ec0554eb64af37df6ce7e12dfe5db356602fc6830f3f0e033c",
+    "references\\overview.md": "faad5882d677f59322de9baca1c31d90d45af273cdae18ec1b0a0cc607a16f71",
+    "resources\\case-index.md": "f144517ef929da9bb6de3fc213e515b5470eef3ddfb23ed579c01d9902ebb01c",
+    "resources\\check_quote.py": "3456f76a0ee20a1a3e79826f9d36d66a6ad0323fb9fbfbba94628fea8e906f5c",
+    "SKILL.md": "38c54b5c8a1c048618e06fbc23babb7327b018c722f9e8d41e6e8119b67dfc4d"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.wenlv-video-prompt",
+  "bundle_sha256": "2971779a92334458e43bf581a02fcae12d425c55b19459190bbe00322b976d03",
+  "variant": "single",
+  "run_id": "run-20261124-134018-68a532",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 5,
+    "capability_count": 6,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 5 个晋级 Skill，共 6 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}
